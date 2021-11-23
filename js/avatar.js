@@ -1,5 +1,5 @@
 const FILE_TYPES = ['jpg', 'jpeg', 'png'];
-
+//Добавил возможность загружать фото жилья и аватарку;
 const avatarChooser = document.querySelector('.ad-form__field input[type=file]');
 const avatarPreview = document.querySelector('.setup-user-pic');
 const avatarPreviewClone = avatarPreview.cloneNode(true);
