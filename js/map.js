@@ -82,9 +82,6 @@ function onSuccess(cards) {
   activateMapFilters();
 }
 
-//Нужно добавить текст ошибки
-
-
 const removePins = () => {
   markersLayer.clearLayers();
 };

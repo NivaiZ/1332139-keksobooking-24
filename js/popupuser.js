@@ -1,5 +1,3 @@
-import { onSetFormReset } from './form.js';
-
 const onEscKey = (evt) => evt.key === 'Escape' || evt.key === 'Esc';
 const onClickAndKeydown = (messageType) => {
   messageType.addEventListener('click', () => {
@@ -20,7 +18,6 @@ const onShowPopupSuccess = () => {
   const successMessage = successFormTemplate.cloneNode(true);
   document.body.appendChild(successMessage);
   onClickAndKeydown(successMessage);
-  onSetFormReset();
 };
 
 const onShowPopupError = () => {
